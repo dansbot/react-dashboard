@@ -18,9 +18,8 @@ const PersistLogin = () => {
         setIsLoading(false);
       }
     };
-    // eslint-disable-next-line
     !auth?.accessToken ? verifyRefreshToken() : setIsLoading(false);
-  }, []);
+  }, [auth, refresh]);
 
   return <>{isLoading ? <p>Loading...</p> : <Outlet />}</>;
 };

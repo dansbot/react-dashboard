@@ -1,4 +1,3 @@
-import * as React from "react";
 import * as yup from "yup";
 import { Formik } from "formik";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -62,6 +61,7 @@ const Login = () => {
   useEffect(() => {
     localStorage.setItem("persist", persist);
   }, [persist]);
+
   return (
     <Box m="20px">
       <Header title="Sign In" subtitle="" />

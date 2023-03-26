@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Typography, useTheme, Box } from "@mui/material";
-import axios from "axios";
 // import useMediaQuery from "@mui/material/useMediaQuery";
 import useApiPrivate from "../../../hooks/useApiPrivate";
 import Header from "../../../components/Header";

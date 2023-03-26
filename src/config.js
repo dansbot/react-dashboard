@@ -1,7 +1,9 @@
 const API = {
-  baseURL: `${process.env.API_HOST}:${process.env.API_PORT}`,
-  host: process.env.API_HOST,
-  port: process.env.API_PORT,
+  baseURL: process.env.REACT_APP_API_PORT
+    ? `${process.env.REACT_APP_API_HOST}:${process.env.REACT_APP_API_PORT}`
+    : process.env.REACT_APP_API_HOST,
+  host: process.env.REACT_APP_API_HOST,
+  port: process.env.REACT_APP_API_PORT,
   v1: {
     auth: "/api/v1/login",
     employees: "/api/v1/employees",

@@ -24,7 +24,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.0",
     "cookie-parser": "^1.4.6",
-    "dotenv": "^16.0.3",
     "formik": "^2.2.9",
     "jsonwebtoken": "^8.5.1",
     "papaparse": "^5.4.0",

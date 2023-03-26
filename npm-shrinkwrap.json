@@ -29,7 +29,6 @@
         "@testing-library/user-event": "^13.5.0",
         "axios": "^1.2.0",
         "cookie-parser": "^1.4.6",
-        "dotenv": "^16.0.3",
         "formik": "^2.2.9",
         "jsonwebtoken": "^8.5.1",
         "papaparse": "^5.4.0",
@@ -6255,9 +6254,9 @@
       }
     },
     "node_modules/caniuse-lite": {
-      "version": "1.0.30001457",
-      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001457.tgz",
-      "integrity": "sha512-SDIV6bgE1aVbK6XyxdURbUE89zY7+k1BBBaOwYwkNCglXlel/E7mELiHC64HQ+W0xSKlqWhV9Wh7iHxUjMs4fA==",
+      "version": "1.0.30001469",
+      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001469.tgz",
+      "integrity": "sha512-Rcp7221ScNqQPP3W+lVOYDyjdR6dC+neEQCttoNr5bAyz54AboB4iwpnWgyi8P4YUsPybVzT4LgWiBbI3drL4g==",
       "funding": [
         {
           "type": "opencollective",
@@ -7646,14 +7645,6 @@
       "dependencies": {
         "no-case": "^3.0.4",
         "tslib": "^2.0.3"
-      }
-    },
-    "node_modules/dotenv": {
-      "version": "16.0.3",
-      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz",
-      "integrity": "sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==",
-      "engines": {
-        "node": ">=12"
       }
     },
     "node_modules/dotenv-expand": {
