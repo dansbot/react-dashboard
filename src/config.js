@@ -1,7 +1,7 @@
 const API = {
-  baseURL: "http://localhost:3001",
-  host: "http://localhost",
-  port: 3001,
+  baseURL: `${process.env.API_HOST}:${process.env.API_PORT}`,
+  host: process.env.API_HOST,
+  port: process.env.API_PORT,
   v1: {
     auth: "/api/v1/login",
     employees: "/api/v1/employees",
@@ -11,19 +11,6 @@ const API = {
     users: "/api/v1/users",
     patients: "/api/v1/patients",
     records: "/api/v1/records",
-  },
-};
-
-const DB = {
-  local: {
-    host: "localhost",
-    port: 5432,
-    database: "easyai",
-    user: "easyai",
-    password: "organized",
-    max: 10,
-    connectionTimeoutMillis: 60,
-    idleTimeoutMillis: 0,
   },
 };
 
@@ -38,4 +25,4 @@ const RECORDS = {
   },
 };
 
-module.exports = { API, DB, RECORDS };
+module.exports = { API, RECORDS };
